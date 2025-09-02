@@ -1,6 +1,11 @@
 <script lang="ts">
   import Chore from "./lib/Chore.svelte";
+  import ClassAttribute from "./lib/ClassAttribute.svelte";
   import ComponentEvents from "./lib/ComponentEvents.svelte";
+  import GroupInput from "./lib/GroupInput.svelte";
+  import MarkdownParse from "./lib/MarkdownParse.svelte";
+  import SelectBindings from "./lib/SelectBindings.svelte";
+  import SelectMultiple from "./lib/SelectMultiple.svelte";
 
   // import Counter from "./lib/Counter.svelte";
   // import HtmlTags from "./lib/HtmlTags.svelte";
@@ -22,6 +27,7 @@
     <center>Practice</center>
   </h1>
 
+  <!-- <div class="card"> -->
   <div class="card">
     <div>
       <div>
@@ -81,7 +87,27 @@
       </div>
 
       <div>
-        <Chore />
+        <!-- <Chore /> -->
+      </div>
+
+      <div>
+        <!-- <SelectBindings /> -->
+      </div>
+
+      <div>
+        <!-- <GroupInput /> -->
+      </div>
+
+      <div>
+        <!-- <SelectMultiple /> -->
+      </div>
+
+      <div>
+        <!-- <MarkdownParse /> -->
+      </div>
+
+      <div>
+        <ClassAttribute />
       </div>
     </div>
   </div>
